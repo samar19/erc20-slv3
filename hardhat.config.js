@@ -3,7 +3,7 @@ require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.17",
+  solidity: "0.8.4",
   networks: {
     polygon: {
       url: process.env.POLYGON_URL || "",
@@ -26,7 +26,7 @@ module.exports = {
    
   },
   solidity: {
-    version: "0.8.17",
+    version: "0.8.4",
     settings: {
       optimizer: {
         enabled: true,
